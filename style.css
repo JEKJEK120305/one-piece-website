@@ -9,9 +9,24 @@ html {
     width: 100%;
 }
 
+header h1 {
+    text-align: center;
+}
+
 img {
     display: block;
     width: 250px;
     height: 150px;
     object-fit: cover;
+    margin: 15px;
+    border: 1px solid red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.character-name h2 {
+    text-align: center;
 }
