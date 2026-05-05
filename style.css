@@ -9,6 +9,10 @@ html {
     width: 100%;
 }
 
+header {
+    background-color: pink;
+}
+
 header h1 {
     text-align: center;
 }
@@ -29,4 +33,10 @@ img {
 
 .character-name h2 {
     text-align: center;
+}
+
+.character-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
