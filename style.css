@@ -11,10 +11,16 @@ html {
 
 header {
     background-color: pink;
+    padding: 20px;
+    margin-bottom: 35px;
 }
 
 header h1 {
     text-align: center;
+}
+
+#character {
+    margin: 25px;
 }
 
 img {
@@ -22,13 +28,15 @@ img {
     width: 250px;
     height: 150px;
     object-fit: cover;
-    margin: 15px;
+    margin: auto 15px;
     border: 1px solid red;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .character-name h2 {
